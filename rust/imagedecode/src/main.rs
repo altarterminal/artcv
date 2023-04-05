@@ -6,18 +6,12 @@ use opencv::{
 };
 
 use clap::Parser;
-#[derive(Parser)]
-// #[clap(
-//     name    = "My Application",
-//     author  = "Author's name",
-//     version = "v1.0.0",
-//     about   = "Application short description."
-// )]
 
 // ###################################################################
 // パラメータ
 // ###################################################################
 
+#[derive(Debug,Parser)]
 pub struct Arg
 {
     #[clap(short='c', long="col")]

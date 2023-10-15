@@ -1,2 +1,4 @@
 bin/imagedecode
+bin/alphasilhouette
 rust/imagedecode/target
+rust/alphasilhouette/target
